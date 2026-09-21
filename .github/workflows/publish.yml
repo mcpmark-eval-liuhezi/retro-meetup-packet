@@ -1,0 +1,14 @@
+name: Publish Retro Meetup Packet
+
+on:
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Placeholder step
+        run: echo "Publishing retro-internet meetup run-of-show packet (placeholder)"
+
+      - name: Placeholder confirmation
+        run: echo "Workflow triggered manually and fired successfully"
